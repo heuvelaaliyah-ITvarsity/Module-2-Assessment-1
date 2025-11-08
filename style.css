@@ -130,43 +130,25 @@ a.info-box {
 }
 
 /*============= INFO BOX FULL ============*/
-#info-box-full {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 90%;
-    display: block;
-    margin: 12px auto 0 auto;
-    padding: 10px;
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
 }
 
-#info-box-full img {
-    width: 100%;
+
+
+#info-box-full img{
+      width : 100%;
 }
 
-#info-box-full h3 {
-    text-align: center;
-}
 
-#tabs-top, #tabs-bottom {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-#tabs-top a, #tabs-bottom a {
-    flex: 1;
-}
 
-#info-box-full {
-  background-color: rgba(255, 255, 255, 0.95);
-  width: 90%;
-  display: block;
-  margin: 0 auto 80px auto; /* give some space at the bottom */
-  padding: 20px;
-  color: black; /* make sure text is visible */
-  overflow: auto; /* ensures layout doesn’t collapse */
-}
-
-#info-box-full {
-  background-color: #fff;
+#info-box-full h3{
+      text-align : center;
 }
 
 
