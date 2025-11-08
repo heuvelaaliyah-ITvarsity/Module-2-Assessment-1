@@ -53,10 +53,7 @@ body {
 #main-home {
     margin-top: 120px;
 }
-#main {
-  margin-top: 130px; /* push it below the header + top tabs */
-  padding-bottom: 60px; /* keep it above the bottom tabs */
-}
+
 
 /*============ BOTTOM-TABS ============*/
 #tabs-bottom {
@@ -139,18 +136,13 @@ a.info-box {
       padding    : 10px;
 }
 
-
-
 #info-box-full img{
       width : 100%;
 }
 
-
-
 #info-box-full h3{
       text-align : center;
 }
-
 
 /*================= WEATHER ==============*/
 
