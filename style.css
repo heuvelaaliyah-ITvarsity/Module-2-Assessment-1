@@ -151,6 +151,20 @@ a.info-box {
 #tabs-top a, #tabs-bottom a {
     flex: 1;
 }
+#main {
+  margin-top: 130px; /* push it below the header + top tabs */
+  padding-bottom: 60px; /* keep it above the bottom tabs */
+}
+
+#info-box-full {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 90%;
+  display: block;
+  margin: 0 auto 80px auto; /* give some space at the bottom */
+  padding: 20px;
+  color: black; /* make sure text is visible */
+  overflow: auto; /* ensures layout doesn’t collapse */
+}
 
 
 /*================= WEATHER ==============*/
